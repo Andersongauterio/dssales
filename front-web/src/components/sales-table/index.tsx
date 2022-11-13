@@ -26,6 +26,60 @@ const SalesTable = () => {
             <td>Crédito</td>
             <td>R$ 540.00,00</td>
           </tr>
+          <tr>
+            <td>#341</td>
+            <td>07/11/1994</td>
+            <td>Feminino</td>
+            <td>Roupas de acessórios</td>
+            <td>Dois Irmãos</td>
+            <td>Crédito</td>
+            <td>R$ 540.00,00</td>
+          </tr>
+          <tr>
+            <td>#341</td>
+            <td>07/11/1994</td>
+            <td>Feminino</td>
+            <td>Roupas de acessórios</td>
+            <td>Dois Irmãos</td>
+            <td>Crédito</td>
+            <td>R$ 540.00,00</td>
+          </tr>
+          <tr>
+            <td>#341</td>
+            <td>07/11/1994</td>
+            <td>Feminino</td>
+            <td>Roupas de acessórios</td>
+            <td>Dois Irmãos</td>
+            <td>Crédito</td>
+            <td>R$ 540.00,00</td>
+          </tr>
+          <tr>
+            <td>#341</td>
+            <td>07/11/1994</td>
+            <td>Feminino</td>
+            <td>Roupas de acessórios</td>
+            <td>Dois Irmãos</td>
+            <td>Crédito</td>
+            <td>R$ 540.00,00</td>
+          </tr>
+          <tr>
+            <td>#341</td>
+            <td>07/11/1994</td>
+            <td>Feminino</td>
+            <td>Roupas de acessórios</td>
+            <td>Dois Irmãos</td>
+            <td>Crédito</td>
+            <td>R$ 540.00,00</td>
+          </tr>
+          <tr>
+            <td>#341</td>
+            <td>07/11/1994</td>
+            <td>Feminino</td>
+            <td>Roupas de acessórios</td>
+            <td>Dois Irmãos</td>
+            <td>Crédito</td>
+            <td>R$ 540.00,00</td>
+          </tr>
         </tbody>
       </table>
     </div>
