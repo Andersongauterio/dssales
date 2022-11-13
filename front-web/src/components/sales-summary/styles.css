@@ -8,10 +8,10 @@
 .sales-summary-card {
   width: 200px;
   height: 200px;
-  display: flex;
   justify-content: center;
-  flex-direction: column;
+  display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 .sales-summary-card-value {
@@ -26,6 +26,7 @@
   font-size: 18px;
 }
 
-.sales-summary-card:nth-of-type(1), :nth-of-type(2) {
+.sales-summary-card:nth-of-type(1),
+.sales-summary-card:nth-of-type(2) {
   margin-bottom: 45px;
 }
