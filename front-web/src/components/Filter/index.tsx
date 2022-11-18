@@ -42,7 +42,7 @@ const Filter = ( { onFilterChange }: Props ) => {
         onChange={onChangeDate}
         placeholder="Selecione um período"
       />
-      <select className="filter-input">
+      <select className="filter-input" value={gender} onChange={onChangeGender}>
         <option value="">Selecione um gênero</option>
         <option value="MALE">Masculino</option>
         <option value="FEMALE">Feminino</option>
