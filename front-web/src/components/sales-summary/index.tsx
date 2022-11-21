@@ -32,7 +32,7 @@ const SalesSummary = ({filterData}: Props) => {
       .catch(() => {
         console.log('Error to fetch sales by date');
       });
-  }, [params])
+  }, [params]);
 
   return (
     <div className="sales-summary-container">
