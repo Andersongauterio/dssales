@@ -8,10 +8,10 @@ export const makeRequest = axios.create({
   baseURL
 });
 
-export const buildFilterParams = (FilterData?: FilterData) => {
+export const buildFilterParams = (filterData?: FilterData) => {
   return {
-    minDate: formatDateToServer(FilterData?.dates?.[0]),
-    maxDate: formatDateToServer(FilterData?.dates?.[1]),
-    gender: FilterData?.gender
+    minDate: formatDateToServer(filterData?.dates?.[0]),
+    maxDate: formatDateToServer(filterData?.dates?.[1]),
+    gender: filterData?.gender
   };
 };

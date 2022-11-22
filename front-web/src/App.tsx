@@ -27,7 +27,7 @@ function App() {
       .catch(() => {
         console.log('Error to fetch sales by date');
       });
-  }, [params])
+  }, [params]);
 
   useEffect(() => {
     makeRequest
