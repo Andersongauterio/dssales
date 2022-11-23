@@ -6,11 +6,18 @@ import './styles.css';
 
 type Props = {
   filterData?: FilterData;
-}
+};
 
-const SalesTable = ({ filterData }: Props) => {
+const extraParams = {
+  page: 0,
+  size: 12,
+  sort: 'date,desc'
+};
+
+function SalesTable({ filterData }: Props) {
   const [sales, setSales] = useState<Sale[]>([]);
-  const params = useMemo(() => buildFilterParams(filterData), [filterData]);
+
+  const params = useMemo(() => buildFilterParams(filterData, extraParams), [filterData]);
 
   useEffect(() => {
     makeRequest
@@ -35,7 +42,7 @@ const SalesTable = ({ filterData }: Props) => {
 
   return (
     <div className="sales-table-container base-card">
-    <h3 className="sales-table-title">Vendas recentes</h3>
+      <h3 className="sales-table-title">Vendas recentes</h3>
       <table className="sales-table">
         <thead>
           <tr>
@@ -63,7 +70,7 @@ const SalesTable = ({ filterData }: Props) => {
         </tbody>
       </table>
     </div>
-  )
-};
+  );
+}
 
 export default SalesTable;
